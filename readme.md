@@ -16,6 +16,8 @@ The repository provides the Python notebook used to perform the analyses reporte
 
 - `JMIR_paper_covid_analysis.ipynb` — main analysis notebook.
 - `LICENSE` — license governing reuse of the source code.
+- `.gitignore` — exclusion rules to prevent inadvertent commit of non-public study data.
+- `requirements.txt` — Python dependencies required to execute the notebook.
 
 The public notebook has been shared without stored cell outputs in order to avoid inadvertent disclosure of review-level textual content.
 
@@ -84,7 +86,7 @@ The analyses were conducted in Python and make use of libraries including:
 - `statsmodels` and `scipy` for statistical analysis;
 - `scikit-learn` for agreement metrics;
 - `ruptures` for change-point detection;
-- `nltk` and `spaCy` for text preprocessing procedures.
+- `nltk` and for text preprocessing procedures.
 
 ## Reproducibility Notes
 
