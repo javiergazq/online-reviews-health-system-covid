@@ -1,0 +1,26 @@
+# Non-public study data: DO NOT upload to GitHub
+Merged.csv
+validacion_manual.xlsx
+
+# Additional data files kept locally
+*.csv
+*.xlsx
+
+# Generated outputs from the notebook
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Jupyter Notebook temporary files
+.ipynb_checkpoints/
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Operating system files
+.DS_Store
+Thumbs.db
